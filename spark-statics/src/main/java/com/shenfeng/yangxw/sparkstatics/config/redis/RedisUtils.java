@@ -13,7 +13,7 @@ public class RedisUtils {
 
     private static JedisPool jedisPool = null;
 
-    private static final String HOST = "192.168.199.234";
+    private static final String HOST = "192.168.1.71";
     private static final int PORT = 6379;
 
     public static synchronized Jedis getJedis(){
